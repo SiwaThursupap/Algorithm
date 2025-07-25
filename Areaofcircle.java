@@ -4,9 +4,7 @@ public class Areaofcircle { //หลัง clss = ชื่อไฟล์//
       Scanner scanner = new Scanner(System.in);//Scanner ตัวนี้จะใช้ก็ต่อเมื่อต้องการพิมพ์//
       System.out.print("Enter you radius\n");
       int radius = scanner.nextInt(); //scanner.nextInt() = ตัวเก็บข้อมูลแปลงเป็นตัวแปร//
-      System.out.print("Enter you number2\n");
-      int num2 = scanner.nextInt();
-      int sum = num1 + num2 ;
+      double sum = 3.14*(radius*radius);
       System.out.print("Sum = "+sum);
 
     }
