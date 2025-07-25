@@ -13,7 +13,7 @@ public class Average { //หลัง clss = ชื่อไฟล์//
       System.out.print("Enter you number5\n");
       int num5 = scanner.nextInt();
       int sum = (num1+num2+num3+num4+num5)/5;
-      System.out.print("Average = "+sum);
+      System.out.println("Average = "+sum);
 
     }
 }

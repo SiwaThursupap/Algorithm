@@ -5,7 +5,7 @@ public class Tax { //หลัง clss = ชื่อไฟล์//
       System.out.print("Enter your money per month\n");
       int money = scanner.nextInt(); //scanner.nextInt() = ตัวเก็บข้อมูลแปลงเป็นตัวแปร//
       double sum = money*(10.0/100);
-      System.out.print("You pay tax = "+sum+" baht");
+      System.out.println("You pay tax = "+sum+" baht");
     }
 }
 // javac ชื่อไฟล์.java = ใช้สำหรับ compile//

@@ -7,7 +7,7 @@ public class Sum2 { //หลัง clss = ชื่อไฟล์//
       System.out.print("Enter you number2\n");
       int num2 = scanner.nextInt();
       int sum = num1 + num2 ;
-      System.out.print("Sum = "+sum);
+      System.out.println("Sum = "+sum);
 
     }
 }
