@@ -12,7 +12,7 @@ public class Discount {
     double sum = price*amount ;
     double discountAmount = amount*discount ;
     double netPay = sum - discountAmount ;
-    System.out.println("Total cost = " +sum+ " Bhat");
+    System.out.println("Total cost = " +discountAmount+ " Bhat");
     System.out.println("discountAmount = " +discountAmount+ " Bhat");
     System.out.println("Net Pay = " +netPay+ " Bhat");
     }
