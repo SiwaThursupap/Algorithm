@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Member {
     public static void main(String args[]){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter You Membership Level (Silver , Gold , Platinum) : ");
+        System.out.print("Enter You Membership Level (Silver , Gold , Platinum ,Other) : ");
         String member = scanner.nextLine();
         System.out.print("Enter Total purchase amount : ");
         double price = scanner.nextDouble();
@@ -29,6 +29,11 @@ public class Member {
             price = price - sum ;
             System.out.println("Discount : "+ sum);
             System.out.println("Final Price : "+ price);
+        }
+        else {
+        double sum = price * 0 ; 
+        System.out.println("Discount : "+ sum);
+        System.out.println("Final Price : "+ price);
         }
 
     }
