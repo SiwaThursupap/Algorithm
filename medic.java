@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class medic {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter You age ");
         int age = scanner.nextInt();
