@@ -11,7 +11,7 @@ public class Member {
         System.out.println("Member Level : "+ member);
         System.out.println("Total purchase : "+ price);
 
-        if ( member.equals("Platinum") ) { // Stirng ใช้ตัวนี้
+        if ( member.equals("Platinum") ) { // Stirng
             double sum = price * 0.15 ;
             price = price - sum ;
             System.out.println("Discount : "+ sum);
