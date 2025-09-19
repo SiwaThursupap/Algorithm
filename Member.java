@@ -16,7 +16,6 @@ public class Member {
             price = price - sum ;
             System.out.println("Discount : "+ sum);
             System.out.println("Final Price : "+ price);
-
         }
         else if ( member.equals("Gold") ) {
             double sum = price * 0.1 ;
